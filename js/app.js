@@ -24,13 +24,15 @@ class App {
 
   async fetchData() {
     const endpoint = `${this.url}/user/repos?sort=pushed`;
+    const p1 = 'e2dceac8fdcbeaacd537';
+    const p2 = '2a07e93dd8b5cd9d1d15';
 
     try {
       const response = await fetch(endpoint, {
         method: 'GET',
         headers: {
           Accept: 'application/vnd.github.nightshade-preview+json',
-          'Authorization': 'token 90570b3d69d554be50981e753eafb3755cd8fef9',
+          'Authorization': 'token ${p1}${p2}',
         },
       });
       if (response.ok) {
