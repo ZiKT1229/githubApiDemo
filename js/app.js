@@ -32,7 +32,7 @@ class App {
         method: 'GET',
         headers: {
           Accept: 'application/vnd.github.nightshade-preview+json',
-          'Authorization': 'token ${p1}${p2}',
+          'Authorization': `token ${p1}${p2}`,
         },
       });
       if (response.ok) {
