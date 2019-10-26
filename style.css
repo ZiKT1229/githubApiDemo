@@ -1,0 +1,31 @@
+.bg {
+  background-image: url(https://images.pexels.com/photos/1828305/pexels-photo-1828305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-light-t {
+  background-color: rgba(248, 249, 250, .7);
+}
+
+.b-tl-r {
+  border-top-left-radius: 20px;
+}
+
+.bs:hover {
+  box-shadow: 0 0 20px whitesmoke;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fs-l {
+  font-size: 1.5rem;
+}
+
+.w-450 {
+  width: 450px;
+}
