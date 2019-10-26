@@ -30,7 +30,7 @@ class App {
         method: 'GET',
         headers: {
           Accept: 'application/vnd.github.nightshade-preview+json',
-          'Authorization': 'token a01aa8dbf674fe0fc4ca8feedbd4bfcb06f96777',
+          'Authorization': 'token 0c645393bedc8c27b2864467db941be322b7ef83',
         },
       });
       if (response.ok) {
